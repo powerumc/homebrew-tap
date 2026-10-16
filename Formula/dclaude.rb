@@ -1,8 +1,8 @@
 class Dclaude < Formula
   desc "Per-directory Claude Code accounts, selected through direnv"
   homepage "https://github.com/powerumc/dclaude-config"
-  url "https://github.com/powerumc/dclaude-config/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "ab850cb98d5480d01dfdad76189c9170bad7f847fe584ba867ef8488c81fc9af"
+  url "https://github.com/powerumc/dclaude-config/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "aaf5c8f1d3853d3a62e21ea1173a19c5479171fa06b756b7082880401afce484"
   license "MIT"
   head "https://github.com/powerumc/dclaude-config.git", branch: "main"
 
