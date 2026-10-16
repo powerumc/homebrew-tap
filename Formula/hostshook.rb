@@ -2,7 +2,7 @@ class Hostshook < Formula
   desc "DNS resolution override tool without modifying system hosts file"
   homepage "https://github.com/powerumc/hosts-hook"
   url "https://github.com/powerumc/hosts-hook/archive/v0.9.1.tar.gz"
-  sha256 "a6c3e20ed9a0e520b49eef17db1c7793064fd2904dc6fc2b290c2a3c828fb3c2"
+  sha256 "9f828a6d06d2d055406cf3dbdcbf02f2ec7a1a8fd59ac9ba8f602cb13f87b054"
   license "MIT"
   
   #depends_on "rust" => :build
