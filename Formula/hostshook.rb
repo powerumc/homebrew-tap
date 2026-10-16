@@ -12,8 +12,7 @@ class Hostshook < Formula
     system "cargo", "build", "--locked", "--release", "--no-default-features", "--features", "release"
 
     bin.install "target/release/hostshook"
-    lib.install Dir["target/release/*.dylib"]
-    lib.install Dir["target/release/*.so"]
+    lib.install Dir["target/release/*.{dylib,so}"]
   end
 
   test do
