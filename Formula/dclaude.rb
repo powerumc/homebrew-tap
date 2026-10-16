@@ -10,8 +10,8 @@ class Dclaude < Formula
   depends_on "direnv"
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}"), "./cmd/dclaude"
-    system "go", "build", *std_go_args(ldflags: "-s -w", output: bin/"dclaude-code"), "./cmd/dclaude-code"
+    system "go", "build", *std_go_args(ldflags: "-X main.version=#{version}"), "./cmd/dclaude"
+    system "go", "build", *std_go_args(output: bin/"dclaude-code"), "./cmd/dclaude-code"
   end
 
   test do
